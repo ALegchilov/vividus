@@ -21,6 +21,9 @@
             <AppenderRef ref="console" />
             <AppenderRef ref="file" />
         </Logger>
+        <Logger name="org.vividus" level="DEBUG" additivity="false">
+            <AppenderRef ref="console" />
+        </Logger>
         <Logger name="org.vividus.softassert.SoftAssert" level="DEBUG" additivity="false">
             <AppenderRef ref="console" />
             <AppenderRef ref="file" />
